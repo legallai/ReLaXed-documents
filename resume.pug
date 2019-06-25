@@ -2,85 +2,86 @@ include resume-mixins.pug
 
 #main
     #title
-        h1 Jon Snow
-        .subtitle King in the North
+        h1 Adrien LE GALL
+        .subtitle Full stack web developer
 
     .main-block
         h2 #[i.fa.fa-suitcase] Experiences
 
-        +item("Bastard in Residence", "Winterfell Castle", "North", "Sn 1")
+        +item("Developer", "Zero to One Technology", "Caen - France", "Jan 18", null)
             :markdown-it
-                - Spent time with the rest of the family.
-                - Waited outside on formal occasions.
+                - Worked on the front and back end of Comscope, a system which automatically translates audio and video recordings of a one on one interaction into quantitative variables
+                - Charged of integrating UI/UX design for modernisation of the Comscope, e.g. recording dashboard
+                - Consolidated continuous integration
+                - Worked on semantic detection in the Comscope
 
-        +item("Lord Commander", "Night Watch", "Castle Black", "Sn 1", "Sn 6")
+        +item("Developer", "Apitic", "Lannion - France", "Jun 16", "Jan 18")
             :markdown-it
-                - Defended a thousand-years tradition
-                - Liked the job so much, got stabbed and died and still came back the next SHanged all the rascals.
+                - Improved and maintained Apitic's software suite which is comsposed of an online cash register and management solutions for shops
+                - Designed qnd implemented new features across back end, web front end including user interfaces and APIs
+                - Lightened up technical debt: rewrote and refreshed modules to ease further improvement
 
-        +item("King in the North", "Winterfell Castle", "North", "Sn 6", "Sn 7")
-            :markdown-it
-                - Tightened links with the Mother of Dragons
-                - Wisely delegated important responsabilities to my sister.
+        +item("Intern", "Apitic", "Lannion - France", "Apr 16", "Jun 16")
+            .description 10-week diploma validation internship
 
     .main-block
         h2 #[i.fa.fa-folder-open] Selected Projects
 
-        +item("Hardhome Rescue", "Some Workplace", null, "Sn 6")
+        +item("Project manager, responsible of internship", null, null, null, null)
             :markdown-it
-                - Came there for the people, stayed for the white walkers.
-                - Brought back a few hundred wildings.
+                - Conceived and developed an ordering software for specific mall aisles with the collaboration of an intern
+                - The project had to be deployed in points of a mall where employees could take customer's orders with offline capabilities and syncronisation
 
-        +item("Wilding Raid Rebutal", "Some other workplace", null, "Sn 5")
-            :markdown-it
-                - Fought back one of the largest wilding armies ever.
-                - Stepped up when the commander was down.
-                - Events led to my nomination as Lord Commander
+        +item("Project manager", null, null, null, null)
+            .description Conceived and developped an internal piece of software to manage Apitic's customers subscriptions, options and billing
 
-        +item("White Walker Capture", "Some other workplace", null, "Sn 7")
+        +item("Internship project", null, null, null, null)
             :markdown-it
-                - Organized and led an elite squadron for the capture of a Walker.
-                - Outcome led to world peace in front of a common ennemy.
+                - Conceived and developped an internal issues management system for customer service and developer team
+                - The software had to answer the needs of the customer service team who needed an easy to navigate interface in order to take client's requests with user rights taken into account
+                - Doubled as a software issue management system
 
     .main-block.concise
         h2 #[i.fa.fa-graduation-cap] Education
 
-        +item("Martial Training", "Winterfell Castle", "North", "Sn 1")
-            .description Relationship of the number with the answer to life, the universe and everything
+        +item("DUT Informatique", "IUT de Lannion (22, Université de Rennes 1)", "France", "2016", null)
 
-        +item("Squire Training", "Castle Black", "North",    "Sn 1", "Sn 3")
-            .description Made the bed, folded the towels, listened a lot.
-
-        +item("School of Life")
-            .concise
-                :markdown-it
-                    Generic dialectic life lessons including
-                    - Do we ever *know* anything ?
-                    - Is *this* a trick ?
-                    - How to king
+        +item("Bac STI2D", "Lycée la Mennais (56)", "France",    "2013", null)
 
 #sidebar
     #contact.side-block
         h1 Contact Info
         ul
-            li #[i.fa.fa-globe]    jonsnow.nth
-            li #[i.fa.fa-linkedin] linkedin.com/in/jon
-            li #[i.fa.fa-envelope] jonsnow@wintermail.com
-            li #[i.fa.fa-twitter] @kingInTheNorthBaby
-            li #[i.fa.fa-phone] 801.603.0431
+            li #[i.fa.fa-envelope] adrien.le.g.ll@gmail.com
+            li #[i.fa.fa-phone] +33 6 20 94 86 19
 
     #skills.side-block
         h1 Skills
+        h3 Languages
         ul
-            li Fighting
-            li Wall climbing
+            li Python 3
+            li PHP
+            li Node
+            li HTML5
+            li CSS3
+            li JavaScript ES6
+            li TypeScript
+        h3 Frameworks
         ul
-            li Rescuscitating
-            li Kinging
-
-    //- This points to mnjul's original resume project
-    #disclaimer.side-block.
-            This résumé was wholly typeset with HTML/CSS — see code git.io/vVSYL
+            li Laravel
+            li Symfony
+            li AngularJS
+            li Angular
+            li Vue
+        h3 Libraries
+        ul
+            li Bootstrap
+            li Socket.io
+            li jQuery
+        h3 Tools
+        ul
+            li Git
+            li PHPMyAdmin
 
 style
     include resume.scss
