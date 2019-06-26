@@ -18,28 +18,27 @@ include resume-mixins.pug
         +item("Developer", "Apitic", "Lannion - France", "Jun 16", "Jan 18")
             :markdown-it
                 - Improved and maintained Apitic's software suite which is comsposed of an online cash register and management solutions for shops
-                - Designed qnd implemented new features across back end, web front end including user interfaces and APIs
+                - Designed and implemented new features across back end, web front end including user interfaces and APIs
                 - Lightened up technical debt: rewrote and refreshed modules to ease further improvement
 
         +item("Intern", "Apitic", "Lannion - France", "Apr 16", "Jun 16")
-            .description 10-week diploma validation internship
+            :markdown-it
+                - Conceived and developped an internal issues management system for customer service and developer team
+                - The software had to answer the needs of the customer service team who needed an easy to navigate interface in order to take clients' requests with user rights taken into account
+                - Doubled as a software issue management system
 
     .main-block
         h2 #[i.fa.fa-folder-open] Selected Projects
 
+        +item("Another project", null, null, null, null)
+
         +item("Project manager, responsible of internship", null, null, null, null)
             :markdown-it
                 - Conceived and developed an ordering software for specific mall aisles with the collaboration of an intern
-                - The project had to be deployed in points of a mall where employees could take customer's orders with offline capabilities and syncronisation
+                - The project had to be deployed in points of a mall where employees could take customer's orders with offline capabilities and synchronisation
 
         +item("Project manager", null, null, null, null)
-            .description Conceived and developped an internal piece of software to manage Apitic's customers subscriptions, options and billing
-
-        +item("Internship project", null, null, null, null)
-            :markdown-it
-                - Conceived and developped an internal issues management system for customer service and developer team
-                - The software had to answer the needs of the customer service team who needed an easy to navigate interface in order to take client's requests with user rights taken into account
-                - Doubled as a software issue management system
+            .description Conceived and developped an internal software to manage Apitic's customers subscriptions, options and billing
 
     .main-block.concise
         h2 #[i.fa.fa-graduation-cap] Education
@@ -54,6 +53,8 @@ include resume-mixins.pug
         ul
             li #[i.fa.fa-envelope] adrien.le.g.ll@gmail.com
             li #[i.fa.fa-phone] +33 6 20 94 86 19
+            li #[i.fa.fa-github]
+                a(href='http://github.com/legallai') github.com/legallai
 
     #skills.side-block
         h1 Skills
