@@ -60,29 +60,29 @@ include resume-mixins.pug
         h1 Skills
         h3 Languages
         ul
-            li Python 3
-            li PHP
-            li Node
-            li HTML5
-            li CSS3
-            li JavaScript ES6
-            li TypeScript
+            +skill(4, "JavaScript ES6")
+            +skill(3, "TypeScript")
+            +skill(4, "HTML5")
+            +skill(4, "CSS3")
+            +skill(4, "PHP")
+            +skill(2, "Python 3")
+            +skill(2, "Node.js")
         h3 Frameworks
         ul
-            li Laravel
-            li Symfony
-            li AngularJS
-            li Angular
-            li Vue
+            +skill(4, "Angular")
+            +skill(3, "Laravel")
+            +skill(2, "Symfony")
+            +skill(2, "AngularJS")
+            +skill(1, "Vue.js")
         h3 Libraries
         ul
-            li Bootstrap
-            li Socket.io
-            li jQuery
+            +skill(4, "jQuery")
+            +skill(3, "Bootstrap")
+            +skill(1, "Socket.io")
         h3 Tools
         ul
-            li Git
-            li PHPMyAdmin
+            +skill(4, "Git")
+            +skill(3, "Shell")
 
 style
     include resume.scss

@@ -15,3 +15,16 @@ mixin item(title, place, location, from_date, to_date)
                     span.location= location
             .description
                 block
+
+mixin skill(level, name)
+    li
+        span= name
+        span.level
+            - var n = 0
+            while n < level
+                span |
+                - n++
+            - var n = 0
+            while n < 5 - level
+                span.grey |
+                - n++
