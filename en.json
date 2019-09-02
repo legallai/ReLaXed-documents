@@ -1,0 +1,57 @@
+{
+    "angular": "Angular",
+    "angularjs": "AngularJS",
+    "bootstrap": "Bootstrap",
+    "css3": "CSS3",
+    "git": "Git",
+    "html5": "HTML5",
+    "javascript_es6": "JavaScript ES6",
+    "jquery": "jQuery",
+    "laravel": "Laravel",
+    "node_js": "Node.js",
+    "php": "PHP",
+    "python_3": "Python 3",
+    "role_better_project_manager": "Project manager, responsible of internship",
+    "role_developer": "Developer",
+    "role_intern": "Intern",
+    "role_project_manager": "Project manager",
+    "role": "Full stack web developer",
+    "shell": "Shell",
+    "socket_io": "Socket.io",
+    "symfony": "Symfony",
+    "title_contact": "Contact Info",
+    "title_education": "Education",
+    "title_experiences": "Experiences",
+    "title_frameworks": "Frameworks",
+    "title_languages": "Languages",
+    "title_libraries": "Libraries",
+    "title_projects": "Selected Projects",
+    "title_skills": "Skills",
+    "title_tools": "Tools",
+    "title": "Developer",
+    "typescript": "TypeScript",
+    "vue_js": "Vue.js",
+    
+    "zto_description": [
+        "Worked on the front and back end of Comscope, a system which automatically translates audio and video recordings of a one on one interaction into quantitative variables",
+        "Charged of integrating UI/UX design for modernisation of the Comscope, e.g. recording dashboard",
+        "Consolidated continuous integration",
+        "Worked on semantic detection in the Comscope"
+    ],
+    "apitic_description": [
+        "Improved and maintained Apitic's software suite which is comsposed of an online cash register and management solutions for shops",
+        "Designed and implemented new features across back end, web front end including user interfaces and APIs",
+        "Lightened up technical debt: rewrote and refreshed modules to ease further improvement"
+    ],
+    "apitic_intern_description": [
+        "Conceived and developped an internal issues management system for customer service and developer team",
+        "The software had to answer the needs of the customer service team who needed an easy to navigate interface in order to take clients' requests with user rights taken into account",
+        "Doubled as a software issue management system"
+    ],
+    "comscope_description": "Developed modules for an adaptation of ZTO's Comscope to phone conversations with the goal of deploying it to call centers by integrating UI / UX designs in collaboration with the team's designer and implemented server side APIs",
+    "apimag_description": [
+        "Conceived and developed an ordering software for specific mall aisles with the collaboration of an intern",
+        "The project had to be deployed in points of a mall where employees could take customer's orders with offline capabilities and synchronisation"
+    ],
+    "apibank_description": "Conceived and developped an internal software to manage Apitic's customers subscriptions, options and billing"
+}

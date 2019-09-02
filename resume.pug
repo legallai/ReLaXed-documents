@@ -3,54 +3,54 @@ include resume-mixins.pug
 #main
     #title
         h1 Adrien LE GALL
-        .subtitle Full stack web developer
+        .subtitle #{role}
 
     .main-block
-        h2 #[i.fa.fa-suitcase] Experiences
+        h2 #[i.fa.fa-suitcase] #{title_experiences}
 
-        +item("Developer", "Zero to One Technology", "Caen - France", "Jan 18", null)
-            :markdown-it
-                - Worked on the front and back end of Comscope, a system which automatically translates audio and video recordings of a one on one interaction into quantitative variables
-                - Charged of integrating UI/UX design for modernisation of the Comscope, e.g. recording dashboard
-                - Consolidated continuous integration
-                - Worked on semantic detection in the Comscope
+        +item(role_developer, "Zero to One Technology", "Caen - France", "Jan 18", null)
+            ul
+                li #{zto_description[0]}
+                li #{zto_description[1]}
+                li #{zto_description[2]}
+                li #{zto_description[3]}
 
-        +item("Developer", "Apitic", "Lannion - France", "Jun 16", "Jan 18")
-            :markdown-it
-                - Improved and maintained Apitic's software suite which is comsposed of an online cash register and management solutions for shops
-                - Designed and implemented new features across back end, web front end including user interfaces and APIs
-                - Lightened up technical debt: rewrote and refreshed modules to ease further improvement
+        +item(role_developer, "Apitic", "Lannion - France", "Jun 16", "Jan 18")
+            ul
+                li #{apitic_description[0]}
+                li #{apitic_description[1]}
+                li #{apitic_description[2]}
 
-        +item("Intern", "Apitic", "Lannion - France", "Apr 16", "Jun 16")
-            :markdown-it
-                - Conceived and developped an internal issues management system for customer service and developer team
-                - The software had to answer the needs of the customer service team who needed an easy to navigate interface in order to take clients' requests with user rights taken into account
-                - Doubled as a software issue management system
+        +item(role_intern, "Apitic", "Lannion - France", "Apr 16", "Jun 16")
+            ul
+                li #{apitic_intern_description[0]}
+                li #{apitic_intern_description[1]}
+                li #{apitic_intern_description[2]}
 
     .main-block
-        h2 #[i.fa.fa-folder-open] Selected Projects
+        h2 #[i.fa.fa-folder-open] #{title_projects}
 
-        +item("Developer", null, null, null, null)
-            .description  Developed modules for an adaptation of ZTO's Comscope to phone conversations with the goal of deploying it to call centers by integrating UI / UX designs in collaboration with the team's designer and implemented server side APIs
+        +item(role_developer, null, null, null, null)
+            .description #{comscope_description}
 
-        +item("Project manager, responsible of internship", null, null, null, null)
-            :markdown-it
-                - Conceived and developed an ordering software for specific mall aisles with the collaboration of an intern
-                - The project had to be deployed in points of a mall where employees could take customer's orders with offline capabilities and synchronisation
+        +item(role_better_project_manager, null, null, null, null)
+            ul
+                li #{apimag_description[0]}
+                li #{apimag_description[1]}
 
-        +item("Project manager", null, null, null, null)
-            .description Conceived and developped an internal software to manage Apitic's customers subscriptions, options and billing
+        +item(role_project_manager, null, null, null, null)
+            .description #{apibank_description}
 
     .main-block.concise
-        h2 #[i.fa.fa-graduation-cap] Education
+        h2 #[i.fa.fa-graduation-cap] #{title_education}
 
         +item("DUT Informatique", "IUT de Lannion (22, Université de Rennes 1)", "France", "2016", null)
 
-        +item("Bac STI2D", "Lycée la Mennais (56)", "France",    "2013", null)
+        +item("Bac STI2D", "Lycée la Mennais (56)", "France", "2013", null)
 
 #sidebar
     #contact.side-block
-        h1 Contact Info
+        h1 #{title_contact}
         ul
             li #[i.fa.fa-envelope] 
                 a(href='mailto:adrien.le.g.ll@gmail.com') adrien.le.g.ll@gmail.com
@@ -62,32 +62,32 @@ include resume-mixins.pug
                 a(href='https://www.linkedin.com/in/adrienlegall/') linkedin.com/in/adrienlegall
 
     #skills.side-block
-        h1 Skills
-        h3 Languages
+        h1 #{title_skills}
+        h3 #{title_languages}
         ul
-            +skill(4, "JavaScript ES6")
-            +skill(3, "TypeScript")
-            +skill(4, "HTML5")
-            +skill(4, "CSS3")
-            +skill(4, "PHP")
-            +skill(2, "Python 3")
-            +skill(2, "Node.js")
-        h3 Frameworks
+            +skill(4, javascript_es6)
+            +skill(3, typescript)
+            +skill(4, html5)
+            +skill(4, css3)
+            +skill(4, php)
+            +skill(2, python_3)
+            +skill(2, node_js)
+        h3 #{title_frameworks}
         ul
-            +skill(4, "Angular")
-            +skill(3, "Laravel")
-            +skill(2, "Symfony")
-            +skill(2, "AngularJS")
-            +skill(1, "Vue.js")
-        h3 Libraries
+            +skill(4, angular)
+            +skill(3, laravel)
+            +skill(2, symfony)
+            +skill(2, angularjs)
+            +skill(1, vue_js)
+        h3 #{title_libraries}
         ul
-            +skill(4, "jQuery")
-            +skill(3, "Bootstrap")
-            +skill(1, "Socket.io")
-        h3 Tools
+            +skill(4, jquery)
+            +skill(3, bootstrap)
+            +skill(1, socket_io)
+        h3 #{title_tools}
         ul
-            +skill(4, "Git")
-            +skill(3, "Shell")
+            +skill(4, git)
+            +skill(3, shell)
 
 style
     include resume.scss
