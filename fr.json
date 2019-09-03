@@ -1,0 +1,56 @@
+{
+    "angular": "Angular",
+    "angularjs": "AngularJS",
+    "bootstrap": "Bootstrap",
+    "css3": "CSS3",
+    "git": "Git",
+    "html5": "HTML5",
+    "javascript_es6": "JavaScript ES6",
+    "jquery": "jQuery",
+    "laravel": "Laravel",
+    "node_js": "Node.js",
+    "php": "PHP",
+    "python_3": "Python 3",
+    "role_better_project_manager": "Responsable de projet, responsable d'alternance",
+    "role_developer": "Développeur",
+    "role_intern": "Stagiaire",
+    "role_project_manager": "Responsable de projet",
+    "role": "Développeur web full stack",
+    "shell": "Shell",
+    "socket_io": "Socket.io",
+    "symfony": "Symfony",
+    "title_contact": "Contact",
+    "title_education": "Education",
+    "title_experiences": "Expériences",
+    "title_frameworks": "Frameworks",
+    "title_languages": "Langages",
+    "title_libraries": "Libraries",
+    "title_projects": "Projets",
+    "title_skills": "Compétences",
+    "title_tools": "Outils",
+    "typescript": "TypeScript",
+    "vue_js": "Vue.js",
+    
+    "zto_description": [
+        "Améliorations sur le front et le back end du Comscope, un système transformant automatiquement des enregistrements audio et vidéo d'entretiens en face à face en variables quantitatives",
+        "Chargé d'intégration de designs UI/UX pour la modernisation du Comscope, ex. dashboard des enregistrements",
+        "Consolidation de l'intégration continue",
+        "Amélioration de la détection sémantique du Comscope"
+    ],
+    "apitic_description": [
+        "Amélioration et maintien de la suite logicielle d'Apitic qui est composée d'une caisse enregistreuse en ligne et de solutions de management pour les commercants",
+        "Design et implémentation de nouvelles fonctionnalités dans le back end et le front end incluant des interfaces utilisateur et des APIs",
+        "Allègement de la dette technique: réécriture et rafraîchissement de modules afin de faciliter les développements futurs"
+    ],
+    "apitic_intern_description": [
+        "Conception et développement d'un système de gestion de tickets interne pour le service client et l'équipe de développement",
+        "Le logiciel devait répondre aux besoins de l'équipe du service client qui avait besoin d'une interface facilement naviguable de façon à prendre les demandes client (avec gestion des permission prise en compte)",
+        "Devait également pouvoir servir de gestionnaire de bugs logiciels"
+    ],
+    "comscope_description": "Développement de modules pour une adaptation du Comscope de ZTO aux conversations téléphoniques avec pour but de déployer la solution dans les call centers en intégrant des éléments d'UI/UX ainsii que des APIs coté serveur",
+    "apimag_description": [
+        "Conception et développement d'un logiciel de commande client pour les rayons spécifiques des grandes surfaces (charcuterie, fromage) en collaboration avec un alternant",
+        "Le projet devait être déployé dans les points du supermarché où les employés prenaient les commandes clients avec la possibilité d'être déconnecté du réseau puis de resyncroniser"
+    ],
+    "apibank_description": "Conception et developpement d'un logiciel interne pour gerer les abonnements clients d'Apitic ainsi que leurs options et facturation"
+}
