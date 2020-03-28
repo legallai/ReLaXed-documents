@@ -31,7 +31,8 @@
     "title": "Developer",
     "typescript": "TypeScript",
     "vue_js": "Vue.js",
-    
+    "d3_js": "d3.js",
+
     "zto_description": [
         "Worked on the front and back end of Comscope, a system which automatically translates audio and video recordings of a one on one interaction into quantitative variables",
         "Charged of integrating UI/UX design for modernisation of the Comscope, e.g. recording dashboard",

@@ -30,6 +30,7 @@
     "title_tools": "Outils",
     "typescript": "TypeScript",
     "vue_js": "Vue.js",
+    "d3_js": "d3.js",
     
     "zto_description": [
         "Améliorations sur le front et le back end du Comscope, un système transformant automatiquement des enregistrements audio et vidéo d'entretiens en face à face en variables quantitatives",
