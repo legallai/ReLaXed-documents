@@ -45,7 +45,7 @@
     ],
     "apitic_intern_description": [
         "Conception et développement d'un système de gestion de tickets interne pour le service client et l'équipe de développement",
-        "Le logiciel devait répondre aux besoins de l'équipe du service client qui avait besoin d'une interface facilement naviguable de façon à prendre les demandes client (avec gestion des permission prise en compte)",
+        "Le logiciel devait répondre aux besoins de l'équipe du service client qui avait besoin d'une interface facilement navigable de façon à prendre les demandes client (avec gestion des permissions prise en compte)",
         "Devait également pouvoir servir de gestionnaire de bugs logiciels"
     ],
     "comscope_description": "Développement de modules pour une adaptation du Comscope de ZTO aux conversations téléphoniques avec pour but de déployer la solution dans les call centers en intégrant des éléments d'UI/UX ainsii que des APIs coté serveur",
@@ -53,5 +53,5 @@
         "Conception et développement d'un logiciel de commande client pour les rayons spécifiques des grandes surfaces (charcuterie, fromage) en collaboration avec un alternant",
         "Le projet devait être déployé dans les points du supermarché où les employés prenaient les commandes clients avec la possibilité d'être déconnecté du réseau puis de resyncroniser"
     ],
-    "apibank_description": "Conception et developpement d'un logiciel interne pour gerer les abonnements clients d'Apitic ainsi que leurs options et facturation"
+    "apibank_description": "Conception et developpement d'un logiciel interne pour gérer les abonnements clients d'Apitic ainsi que leurs options et facturation"
 }
