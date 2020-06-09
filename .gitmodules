@@ -1,0 +1,3 @@
+[submodule "ReLaXed"]
+	path = ReLaXed
+	url = https://github.com/RelaxedJS/ReLaXed.git
