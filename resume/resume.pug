@@ -8,7 +8,12 @@ include resume-mixins.pug
     .main-block
         h2 #[i.fa.fa-suitcase] #{title_experiences}
 
-        +item(role_developer, "Zero to One Technology", "Caen - France", "Jan 18", null)
+        +item(role_engineer, "Visual Meta GmbH", "Berlin - Germany", "Dec 19", null)
+            ul
+                li #{vm_description[0]}
+                li #{vm_description[1]}
+
+        +item(role_developer, "Zero to One Technology", "Caen - France", "Jan 18", "Nov 19")
             ul
                 li #{zto_description[0]}
                 li #{zto_description[1]}

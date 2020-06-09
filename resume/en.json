@@ -12,6 +12,7 @@
     "php": "PHP",
     "python_3": "Python 3",
     "role_better_project_manager": "Project manager, responsible of internship",
+    "role_engineer": "Front End Engineer",
     "role_developer": "Developer",
     "role_intern": "Intern",
     "role_project_manager": "Project manager",
@@ -32,6 +33,10 @@
     "vue_js": "Vue.js",
     "d3_js": "d3.js",
 
+    "vm_description": [
+        "Responsible of maintaining Partner Dashboard, Visual Meta's business relationship tool",
+        "Charged of integrating UI/UX design"
+    ],
     "zto_description": [
         "Worked on the front and back end of Comscope, a system which automatically translates audio and video recordings of a one on one interaction into quantitative variables",
         "Charged of integrating UI/UX design for modernisation of the Comscope, e.g. recording dashboard",

@@ -12,6 +12,7 @@
     "php": "PHP",
     "python_3": "Python 3",
     "role_better_project_manager": "Responsable de projet, responsable d'alternance",
+    "role_engineer": "Ingénieur Front End",
     "role_developer": "Développeur",
     "role_intern": "Stagiaire",
     "role_project_manager": "Responsable de projet",
@@ -31,7 +32,13 @@
     "typescript": "TypeScript",
     "vue_js": "Vue.js",
     "d3_js": "d3.js",
-    
+
+    "vm_description": [
+        "Worked on the front and back end of Comscope, a system which automatically translates audio and video recordings of a one on one interaction into quantitative variables",
+        "Charged of integrating UI/UX design for modernisation of the Comscope, e.g. recording dashboard",
+        "Consolidated continuous integration",
+        "Worked on semantic detection in the Comscope"
+    ],
     "zto_description": [
         "Améliorations sur le front et le back end du Comscope, un système transformant automatiquement des enregistrements audio et vidéo d'entretiens en face à face en variables quantitatives",
         "Chargé d'intégration de designs UI/UX pour la modernisation du Comscope, ex. dashboard des enregistrements",
